@@ -1,29 +1,130 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2113.6">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.1px Menlo; color: #d96067; -webkit-text-stroke: #d96067; background-color: #000000; background-color: rgba(0, 0, 0, 0)}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.1px Menlo; color: #ffffff; -webkit-text-stroke: #ffffff; background-color: #000000; background-color: rgba(0, 0, 0, 0)}
-    span.s1 {font-kerning: none; color: #c1c1c1; -webkit-text-stroke: 0px #c1c1c1}
-    span.s2 {font-kerning: none}
-    span.s3 {font-kerning: none; color: #6dbc87; -webkit-text-stroke: 0px #6dbc87}
-    span.s4 {font-kerning: none; color: #ffffff; -webkit-text-stroke: 0px #ffffff}
-    span.s5 {font-kerning: none; color: #d96067; -webkit-text-stroke: 0px #d96067}
-  </style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+H1 {text-align: center;}
+H2 {text-align: center;}
+H3 {text-align: center;}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+}
+
+.container {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.container img {vertical-align:  top;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.3); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 0px;
+}
+
+.about-me {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 80px;
+      border-top: 2px solid #eeeeee;
+    }
+
+    .about-me img {
+      width: 300px;
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      float: left;
+    }
+
+    /* .about-me-text h2 {
+      font-size: 30px;
+      color: #333333;
+      text-transform: uppercase;
+      margin: 0;
+    } */
+
+    .about-me-text p {
+      font-size: 20px;
+      color: #585858;
+      margin: 10px 2;
+    }
+
+    .projects h2{
+      font-size: 30px;
+      color: #333333;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    .projects h3{
+      font-size: 18px;
+      color: #333333;
+      margin: 1cm;
+    }
+    .projects p {
+      font-size: 20px;
+      color: #585858;
+      margin: 0;
+      text-align: center;
+    }
+</style>
 </head>
 <body>
-<p class="p1"><span class="s1">&lt;</span><span class="s2">header class</span><span class="s1">="</span><span class="s3">header</span><span class="s1">"&gt;</span></p>
-<p class="p1"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;</span><span class="s2">a href</span><span class="s1">="</span><span class="s3">#</span><span class="s1">"</span><span class="s2"> class</span><span class="s1">="</span><span class="s3">logo</span><span class="s1">"&gt;</span><span class="s4">Developer</span><span class="s1">&lt;/</span><span class="s2">a</span><span class="s1">&gt;</span></p>
-<p class="p1"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;</span><span class="s2">nav class</span><span class="s1">="</span><span class="s3">nav-items</span><span class="s1">"&gt;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;</span><span class="s5">a href</span><span class="s1">="</span><span class="s3">#</span><span class="s1">"&gt;</span><span class="s2">Home</span><span class="s1">&lt;/</span><span class="s5">a</span><span class="s1">&gt;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;</span><span class="s5">a href</span><span class="s1">="</span><span class="s3">#</span><span class="s1">"&gt;</span><span class="s2">About</span><span class="s1">&lt;/</span><span class="s5">a</span><span class="s1">&gt;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;</span><span class="s5">a href</span><span class="s1">="</span><span class="s3">#</span><span class="s1">"&gt;</span><span class="s2">Contact</span><span class="s1">&lt;/</span><span class="s5">a</span><span class="s1">&gt;</span></p>
-<p class="p1"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;/</span><span class="s2">nav</span><span class="s1">&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/</span><span class="s2">header</span><span class="s1">&gt;</span></p>
+
+<div class="container">
+    <img src="IMG_5893.jpg" alt="Shenandoah" width="100%" 
+    height=auto >
+  <div class="content">
+    <H1>SOUMEE GUHA</H1>
+    <H2>PhD Candidate, Computer Engineering, University of Virginia</H2>
+    <H3>Email: ccf3dv@virginia.edu</H3>
+
+  </div>
+</div>
+<div class="about-me">
+  <div class="about-me-text">
+    <p>
+      I am a second-year PhD student in Prof. Scott Acton's group at University of Virginia, Charlottesville.
+      I completed my undergraduate studies in Electrical engineering from Jadavpur University and got my master's degree
+       in Computer Science in 2018 and 2020 respectively. After working in Anheuser-Busch Inbev as an Associate Data Scientist 
+       for a year, I started my PhD.
+    </p>
+
+    <p>
+      I am currently working on single-molecule detection and localization. This project is in collaboration with 
+      Prof. Andreas Gahlmann's group at the Department of Chemistry, UVa. I am interested in image generation 
+      tasks and I've worked on generating steel microstructure images for my master's dissertation. 
+    </p>
+
+    <p>
+      Please feel free to send me an email at ccf3dv@virginia.edu if you're working on similar projects and would
+      like to discuss and collaborate!
+    </p>
+  </div>
+  <img src="IMG_1984.jpeg" alt="me" width="200" 
+      height=auto>
+</div>
+
+<div class="projects">
+  <H2>Projects</H2>
+  
+  <h3>DiffusionNet: An Efficient Framework to Classify Single-Molecule
+    Images with Latent Entropy Minimization (ICASSP'23)</h3>
+  <p>[<a href="DiffusionNet_corrected.pdf">paper</a>]       [<a href="https://github.com/soumeeguha/DiffusionNet">code</a>]</p>
+</div>
 </body>
 </html>
